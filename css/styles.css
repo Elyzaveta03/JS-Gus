@@ -86,7 +86,7 @@ body {
     text-align: center;
 }
 
-.facts-trezyb {
+.facts-tryzub {
     margin-bottom: 24px;
 }
 
@@ -124,4 +124,110 @@ body {
 
 .facts-item {
     width: calc((100% / 3) - (24px * 2) / 3);
+}
+
+.form-container {
+    width: 100%;
+    padding: 80px;
+    background: linear-gradient(271deg, #a5deff 1.14%, #fcfefe 100%);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background: #fff;
+    border-radius: 40px;
+    padding-top: 32px;
+    padding: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.facts-tryzub {
+    margin-bottom: 32px;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.form-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-field-lable {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin-bottom: 8px;
+}
+
+.form-field-name {
+    margin-bottom: 24px;
+}
+
+.form-input {
+    border: 1px solid #005bbb;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    padding-left: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-button {
+    background: #ff6b0a;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    cursor: pointer;
+    padding-left: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    border: none;
+}
+
+.form-field-email {
+    margin-bottom: 48px;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
 }
