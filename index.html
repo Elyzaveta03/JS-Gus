@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preload" href="./img/gus-anim.gif" as="image">
+    <link rel="preload" href="./img/gus-anim.gif" as="image" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -27,7 +27,9 @@
             подвигами, бороню Батьківщину та підтримую позитивний дух народу.
             Слава Україні!
           </p>
-          <button class="main-page-btn" id="go-to-form-btn">Запустити гуся</button>
+          <button class="main-page-btn" id="go-to-form-btn">
+            Запустити гуся
+          </button>
         </div>
         <img src="img/gus.svg" alt="Banderogus" />
       </div>
@@ -75,13 +77,15 @@
         <p class="form-descr">та запиши гуся до бандерозагону</p>
         <div class="form-field form-field-name">
           <label for="user-name" class="form-field-lable">Ім'я</label>
-          <input type="text" id="user-name" class="form-input" />
+          <input type="text" id="user-name" class="form-input" required/>
         </div>
         <div class="form-field form-field-email">
           <label for="user-email" class="form-field-lable">Email</label>
-          <input type="text" id="user-email" class="form-input" />
+          <input type="email" id="user-email" class="form-input" required />
         </div>
-        <button type="submit" class="form-button" id="launch-btn">Запустити гуся</button>
+        <button type="submit" class="form-button" id="launch-btn" >
+          Запустити гуся
+        </button>
       </form>
     </section>
     <script src="js/form.js"></script>
